@@ -6,8 +6,8 @@ import { Component1 } from './components'
 
 function App() {
   const [count, setCount] = useState(0)
-  //@ts-ignore
-  // console.log(window.a)
+  // @ts-expect-error: ignore
+  console.log(window.a)
   return (
     <>
       <div>

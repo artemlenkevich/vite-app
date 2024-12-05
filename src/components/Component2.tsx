@@ -1,7 +1,8 @@
 // document.querySelector('body')!.style.backgroundColor = 'red'
 
-// @ts-ignore
-// window.a = 5
+// @ts-expect-error: ignore
+window.a = 5
+
 function mylog() {
   console.log('hello');
 }
